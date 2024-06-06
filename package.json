@@ -4,10 +4,7 @@
   "description": "Simple Webiste for login and signup Functionality",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "stop": "node server.js",
-    "restart": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
