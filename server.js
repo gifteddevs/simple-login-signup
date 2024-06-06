@@ -23,11 +23,11 @@ const writeUsersFile = (data) => {
 };
 
 // Serve the HTML files
-app.get("/", (req, res) => res.sendFile(path.join(__dirname, "user.html")));
+app.get("/", (req, res) => res.sendFile(path.join(__dirname, "login.html")));
 app.get("/signup.html", (req, res) =>
   res.sendFile(path.join(__dirname, "signup.html"))
 );
-app.get("/login.html", (req, res) =>
+app.get("/user.html", (req, res) =>
   res.sendFile(path.join(__dirname, "user.html"))
 );
 
